@@ -3,6 +3,8 @@ import React from "react";
 
 import Location from "../../shared/components/Location";
 import Map from "../../shared/components/Map";
+import AddNote from "../../shared/components/AddNote";
+
 
 import "./home.css";
 
@@ -15,6 +17,7 @@ const Home = () => {
           <p>Your current location is </p>
         </div>
         <Location />
+        <AddNote />
         <Map />
       </div>
   );
