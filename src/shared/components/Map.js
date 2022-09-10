@@ -24,8 +24,6 @@ export default function App() {
       });
     }, [map]);
 
-    console.log(position)
-
     return position === null ? null : (
       <Marker position={position} icon={icon}>
         <Popup>
