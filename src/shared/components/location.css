@@ -6,6 +6,7 @@
     width: 100;
     height: auto;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .location-header {
@@ -22,6 +23,6 @@
     font-size: 1rem;
     min-width: 280px;
     width: 50%;
-    height: 9vh;
+    height: 7vh;
     /* background-color: aqua; */
 }

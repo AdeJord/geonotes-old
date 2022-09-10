@@ -21,7 +21,7 @@ const Location = () => {
   return (
       <div className="location-main">
         <div className="lat-lng">
-          Lat ={lat} - Lng ={lng}
+          Lat ={lat} : Lng ={lng}
         </div>
       </div>
   );
